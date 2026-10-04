@@ -1,0 +1,4 @@
+[feature/1-refactor-calculo-totales 0583709] Simplifica calcular_total y actualiza dependencias (#1)
+ 5 files changed, 58 insertions(+), 60 deletions(-)
+ create mode 100644 evidencias/log_hook_rechazado.txt
+ create mode 100644 evidencias/pip_audit_despues.txt
