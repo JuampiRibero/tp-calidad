@@ -1,0 +1,7 @@
+[feature/1-refactor-calculo-totales 7244a90] Agrega hook y evidencias
+ 5 files changed, 97 insertions(+)
+ create mode 100644 evidencias/pip_audit_antes.txt
+ create mode 100644 evidencias/radon_antes.txt
+ create mode 100644 evidencias/radon_raw_antes.txt
+ create mode 100644 sonar-project.properties
+ create mode 100644 src/tests/test_pedidos.py

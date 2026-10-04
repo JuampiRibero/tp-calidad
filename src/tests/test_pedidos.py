@@ -1,6 +1,6 @@
 import pytest
 
-from pedidos import calcular_total
+from pedidos import Pedido, calcular_total
 
 
 @pytest.mark.parametrize(
@@ -22,4 +22,5 @@ from pedidos import calcular_total
     ],
 )
 def test_calcular_total(tipo, pais, monto, vip, cupon, express, esperado):
-    assert calcular_total(tipo, pais, monto, vip, cupon, express) == pytest.approx(esperado)
+    pedido = Pedido(tipo, pais, monto, vip, cupon, express)
+    assert calcular_total(pedido) == pytest.approx(esperado)
