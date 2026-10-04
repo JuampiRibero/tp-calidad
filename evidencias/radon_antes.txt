@@ -1,0 +1,8 @@
+src\pedidos.py
+    F 3:0 calcular_total - C (13)
+    F 39:0 calcular_total_exportacion - B (6)
+src\tests\test_pedidos.py
+    F 24:0 test_calcular_total - A (2)
+
+3 blocks (classes, functions, methods) analyzed.
+Average complexity: B (7.0)
