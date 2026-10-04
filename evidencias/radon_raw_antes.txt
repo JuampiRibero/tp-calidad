@@ -1,0 +1,24 @@
+src\pedidos.py
+    LOC: 55
+    LLOC: 53
+    SLOC: 53
+    Comments: 0
+    Single comments: 0
+    Multi: 0
+    Blank: 2
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+src\tests\test_pedidos.py
+    LOC: 25
+    LLOC: 5
+    SLOC: 22
+    Comments: 0
+    Single comments: 0
+    Multi: 0
+    Blank: 3
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%

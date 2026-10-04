@@ -1,0 +1,27 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.8, pytest-9.1.1, pluggy-1.6.0
+rootdir: C:\Proyectos\tp-calidad
+configfile: pytest.ini
+plugins: platformdirs-4.12.3, cov-7.1.0
+collected 13 items
+
+src\tests\test_pedidos.py .............                                  [100%]
+
+============================== warnings summary ===============================
+.venv\Lib\site-packages\_pytest\config\__init__.py:1624
+  C:\Proyectos\tp-calidad\.venv\Lib\site-packages\_pytest\config\__init__.py:1624: PytestConfigWarning: No files were found in testpaths; consider removing or adjusting your testpaths configuration. Searching recursively from the current directory instead.
+    self.args, self.args_source = self._decide_args(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=============================== tests coverage ================================
+_______________ coverage: platform win32, python 3.14.8-final-0 _______________
+
+Name                        Stmts   Miss  Cover   Missing
+---------------------------------------------------------
+src\pedidos.py                 26      0   100%
+src\tests\test_pedidos.py       6      0   100%
+---------------------------------------------------------
+TOTAL                          32      0   100%
+Coverage HTML written to dir htmlcov
+Coverage XML written to file coverage.xml
+======================== 13 passed, 1 warning in 0.39s ========================
